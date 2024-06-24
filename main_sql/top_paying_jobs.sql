@@ -1,12 +1,3 @@
-/*
-    QUERY DESCRIPTION:
-        1) Find the top 10 most high-paying jobs that are 'Data Analyst'.
-        2) Find the jobs that are avaliable to work 'Remotely'.
-        3) Find the companies that offers this services.
-        4) Find the jobs whose average_salary is not null.
-        5) Find the jobs whose schedule type is 'full-time'.
-*/
-
 SELECT 
     JPF.job_id AS id,
     companies.name AS company_name,

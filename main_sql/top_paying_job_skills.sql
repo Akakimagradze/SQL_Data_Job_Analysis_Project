@@ -1,13 +1,3 @@
-/*
-    QUERY DESCRIPTION:
-        1) Find the most high-paying jobs that are 'Data Engineer'.
-        2) Find specific skills that are required for these jobs.
-        3) Find the jobs that are avaliable to work 'Remotely'.
-        4) Find the companies that offers this services.
-        5) Find the jobs whose average_salary is not null.
-        6) Find the jobs whose schedule type is 'full-time'.
-*/
-
 WITH top_paying_jobs AS (
     SELECT 
         job_id,

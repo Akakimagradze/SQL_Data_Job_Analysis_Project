@@ -1,12 +1,3 @@
-/*
-    QUERY DESCRIPTION:
-        1) What are the most in-demand skill for data analyst.
-        2) Identify the top 5 in-demand skills for data analyst.
-        3) Focus on all job postings.
-        4) Jobs that are avaliable to work 'Remotely'
-        5) Jobs that are located in New York
-*/
-
 SELECT 
     skills,
     COUNT(skills_job_dim.job_id) AS demand_count
