@@ -1,7 +1,3 @@
-# Project: Data Analysis
-
-<br>
-
 # Tools I Used
 
 For my deep dive into the data analyst job market, I harnessed the power of several key tools:
